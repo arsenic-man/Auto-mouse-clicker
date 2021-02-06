@@ -8,6 +8,10 @@ list2 = []
 def click(num):
     input("You can't do anything during the clicking ")
     input("You have 10 seconds to open the application you want to start clicking after press Enter button ")
+    for n in range(10, 0, -1):
+        print(n)
+        sleep(1)
+
     for i in range(0, num):
         for j in list2:
             print("Mouse 'X' position is '", str(j[0]), "' and mouse 'y' position is '", str(j[1]),
